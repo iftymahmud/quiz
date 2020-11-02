@@ -1,0 +1,164 @@
+
+
+.vanish{
+    display: none;
+}
+
+body{
+    background-color: #252a34;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.start-i{
+    margin-top: 2rem;
+}
+
+.start-title-i{
+    color: #08d9d6;
+    margin-bottom: 0;
+}
+
+.start-text-i{
+    margin-top: 13rem;
+    font-size: 120%;
+    color: #252a34;
+}
+
+
+/* Card */
+.card-i{
+    margin: auto;
+    margin-top: 5rem;
+    background-color: #ff2e63;
+    border-style: solid;
+    border-color: #eaeaea;
+    border-radius: 1rem;
+    width: 20rem;
+    height: 20rem;
+
+}
+
+.question{
+    color: #252a34;
+    border: solid #252a34;
+    background: #08d9d6;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 100%;
+}
+.button-body-i{
+  display: flex;
+}
+
+.button-i{
+    text-align: left;
+    background-color: #eaeaea;
+    color: #252a34;
+    border-style: solid;
+    border-color: #252a34;
+}
+
+.next-i{
+    background-color: #252a34;
+    color: #eaeaea;
+    float: right;
+    margin: 1rem;
+}
+
+/* Function */
+.press-i{
+    background-color: #08d9d6;
+}
+
+
+.end-title-i{
+    color: #ff2e63;
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+}
+
+.end-text-i{
+    margin-top: 0;
+    font-size: 140%;
+    color: #252a34;
+    width: 30%;
+}
+
+
+
+.typewriter {
+    font-family: Courier, monospace;
+	display: inline-block;
+}
+
+
+
+
+
+/* EFFECTS */
+
+.button-i:hover{
+    background-color: #08d9d6;
+}
+
+.next-i:hover{
+    color: #ff2e63;
+}
+
+
+
+.typewriter-text {
+    display: inline-block;
+  	overflow: hidden;
+  	letter-spacing: 2px;
+ 	animation: typing 5s steps(30, end), blink .75s step-end infinite;
+    white-space: nowrap;
+    font-size: 30px;
+    font-weight: 700;
+    border-right: 4px solid orange;
+    box-sizing: border-box;
+}
+
+@keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 100% 
+    }
+}
+
+@keyframes blink {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: orange; 
+    }
+}
+}
+
+
+
+/* Footer */
+
+.footer-i{
+    margin-top: 1%;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: #eaeaea;
+    
+}
+
+.footer-i > p{
+    margin-top: 5rem;
+    color: #eaeaea;
+    font-size: 70%;
+    text-align: center;
+}
+.ifty{
+    font-size: 120%;
+    color: #ff2e63;
+}
